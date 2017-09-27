@@ -25,10 +25,10 @@ class TestGame < MiniTest::Test
     @game1 = Game.new("Snakes and Ladders", @players)
   end
   #
-  # def test_rotate_players()
-  #   current_player = @game1.rotate_players(@players)
-  #   assert_equal(@player2, current_player)
-  # end
+  def test_rotate_players()
+    current_player = @game1.rotate_players()
+    assert_equal(@player2, current_player)
+  end
   #
   # def test_get_roll()
   #   assert(@game1.get_roll(@players[0]).between?(0,7))
@@ -49,7 +49,6 @@ class TestGame < MiniTest::Test
   #   assert_equal(3, result)
   # end
   #
-  def
   #
   #
   #

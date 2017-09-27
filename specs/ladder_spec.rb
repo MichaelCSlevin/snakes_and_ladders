@@ -8,12 +8,12 @@ class TestLadder < MiniTest::Test
     @ladder1 = Ladder.new(2, 4)
   end
 
-  def test_return_start()
-    assert_equal(2, @ladder1.return_start())
+  def test_start()
+    assert_equal(2, @ladder1.start())
   end
 
-  def test_return_length()
-    assert_equal(4, @ladder1.return_length())
+  def test_length()
+    assert_equal(4, @ladder1.length())
   end
 
 

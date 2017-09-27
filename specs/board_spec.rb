@@ -9,7 +9,7 @@ class TestBoard < MiniTest::Test
   end
 
   def test_get_length()
-    assert_equal(31, @board1.get_length())
+    assert_equal(31, @board1.length())
   end
 
 

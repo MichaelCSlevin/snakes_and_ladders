@@ -11,12 +11,12 @@ class TestPlayer < MiniTest::Test
     @player2 = Player.new("Spock", 0, @dice)
   end
 
-  def test_roll()
-    assert(@player1.roll().between?(0,7))
+  def test_roll_dice()
+    assert(@player1.roll_dice().between?(0,7))
   end
 
   def test_get_position
-    assert_equal(0, @player1.get_position())
+    assert_equal(0, @player1.position())
   end
 
   def test_set_position()

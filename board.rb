@@ -3,10 +3,8 @@ class Board
     @squares = squares
   end
 
-  def get_length()
+  def length()
     return @squares.length
   end
-
-
-
+  
 end

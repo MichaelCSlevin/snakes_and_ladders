@@ -9,15 +9,11 @@ class TestSnake < MiniTest::Test
   end
 
   def test_return_start()
-    assert_equal(5, @snake1.return_start())
+    assert_equal(5, @snake1.start())
   end
 
   def test_return_length()
-    assert_equal(2, @snake1.return_length())
+    assert_equal(2, @snake1.length())
   end
-
-
-
-
 
 end

@@ -1,15 +1,15 @@
 class Ladder
-  def initialize(ladder_start, ladder_length)
-    @ladder_start = ladder_start
-    @ladder_length = ladder_length
+  def initialize(start, length)
+    @start = start
+    @length = length
   end
 
-  def return_start()
-    return @ladder_start
+  def start()
+    return @start
   end
 
-  def return_length()
-    return @ladder_length
+  def length()
+    return @length
   end
 
 end

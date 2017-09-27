@@ -1,16 +1,16 @@
 class Snake
-  def initialize(snake_start, snake_length)
-    @snake_start = snake_start
-    @snake_length = snake_length
+
+  def initialize(start, length)
+    @start = start
+    @length = length
   end
 
-  def return_start()
-    return @snake_start
+  def start()
+    return @start
   end
 
-  def return_length()
-    return @snake_length
+  def length()
+    return @length
   end
-
 
 end
